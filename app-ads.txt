@@ -1,5 +1,4 @@
 facebook.com, 1288113132134217, RESELLER, c3e20eee3f780d68
 facebook.com, 160133830352569, RESELLER, c3e20eee3f780d68
-facebook.com, 278391997959806, RESELLER, c3e20eee3f780d68
 facebook.com, 1791065511291682, RESELLER, c3e20eee3f780d68
                         
