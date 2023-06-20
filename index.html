@@ -1,53 +1,110 @@
-<!-- <html>
-<body>
-<h1>Welcome to ANA Games!</h1>
-</body>
-<html>
- -->
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NaaGames | Mobile Game Development Studio</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#features">Features</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">NaaGames</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
   <section class="hero">
-    <h1>NaaGames</h1>
-    <p>Creating fun and addictive mobile games</p>
+    <div class="container text-center">
+      <h1>NaaGames</h1>
+      <p>Creating fun and addictive mobile games</p>
+      <a href="#contact" class="btn btn-primary">Get in touch</a>
+    </div>
   </section>
 
   <section id="features">
-    <h2>Our Features</h2>
-    <ul>
-      <li>
-        <h3>Engaging Gameplay</h3>
-        <p>We develop games with captivating and addictive gameplay mechanics to keep players entertained.</p>
-      </li>
-      <li>
-        <h3>Stunning Graphics</h3>
-        <p>Our games feature beautiful visuals and stunning graphics to create an immersive experience.</p>
-      </li>
-      <li>
-        <h3>Multiplatform Support</h3>
-        <p>We develop games for iOS and Android platforms, reaching a wide audience of mobile gamers.</p>
-      </li>
-    </ul>
+    <div class="container">
+      <h2 class="text-center">Our Features</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Engaging Gameplay</h3>
+          <p>We develop games with captivating and addictive gameplay mechanics to keep players entertained.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Stunning Graphics</h3>
+          <p>Our games feature beautiful visuals and stunning graphics to create an immersive experience.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Multiplatform Support</h3>
+          <p>We develop games for iOS and Android platforms, reaching a wide audience of mobile gamers.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer id="contact">
-    <p>&copy; 2023 NaaGames. All rights reserved.</p>
+  <section id="portfolio" class="bg-light">
+    <div class="container">
+      <h2 class="text-center">Our Portfolio</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="game1.jpg" class="card-img-top" alt="Game 1">
+            <div class="card-body">
+              <h3 class="card-title">Game 1</h3>
+              <p class="card-text">Description of the game.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="game2.jpg" class="card-img-top" alt="Game 2">
+            <div class="card-body">
+              <h3 class="card-title">Game 2</h3>
+              <p class="card-text">Description of the game.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="game3.jpg" class="card-img-top" alt="Game 3">
+            <div class="card-body">
+              <h3 class="card-title">Game 3</h3>
+              <p class="card-text">Description of the game.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="bg-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 NaaGames. All rights reserved.</p>
+          <p>Contact us: info@naagames.com</p>
+        </div>
+      </div>
+    </div>
   </footer>
 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
